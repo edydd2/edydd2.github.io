@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
+body {
+	margin: 0;
+	background: url('../img/leaves.png') top center;
+    background-size: auto;
+    height: 10px;
+    width: 100%;
+}
+
+header {
+    background: #777575;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    width: 100%;
+}
+
+.container {
+    width: 97.3%;
+    text-align: center;
+}
+
+nav {
+    padding-top: 1px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 40px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    position: relative;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+.tabletitle {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    border-top-width: 50%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 99.9%;
+}
+
+html {
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+html::-webkit-scrollbar { /* WebKit */
+    width: 0;
+}
