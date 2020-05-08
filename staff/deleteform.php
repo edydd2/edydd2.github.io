@@ -65,7 +65,7 @@
                         <td style=\'text-align: center;\'>' . $row["last_update"] . '</td>
 
                         <td style=\'text-align: center;\'>
-                            <a style=\'text-align: center;text-decoration: none;color: #9b0000;\' href=delete.php?customerid=' . $row["customer_id"] . '>DELETE</a>' .
+                            <a style=\'text-align: center;text-decoration: none;color: #9b0000;\' href=delete.php?staffid=' . $row["staff_id"] . '>DELETE</a>' .
                         '</td>
 
                     </tr>';

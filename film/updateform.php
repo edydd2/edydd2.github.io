@@ -49,7 +49,7 @@
 <body onload="startTime()">
     
 <form action="" method="POST">
-    <div class="wrapper" style="margin-top: 16.4%; margin-bottom: 50px">
+    <div class="wrapper" style="margin-top: 8%; margin-bottom: 50px">
         <div class="insert-form">
 
             <div class="input-fields">

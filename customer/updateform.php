@@ -49,7 +49,7 @@
 <body onload="startTime()">
     
 <form action="" method="POST">
-    <div class="wrapper" style="margin-top: 5.5%; margin-bottom: 50px">
+    <div class="wrapper" style="margin-top: 2%; margin-bottom: 50px">
         <div class="insert-form">
 
             <div class="input-fields">
@@ -71,7 +71,7 @@
 
                 <input class="input" type="number" name="active" placeholder="Active Status (1 or 0)" required />
 
-                <input class="input" type="datetime-local" name="createdate"  required />
+                <input class="input" type="datetime-local" name="createdate" placeholder="Date Created"  required />
                 
                 <div class="input" id="txt"></div>
             </div>

@@ -46,10 +46,10 @@
     </div>
 </header>
 
-<body onload="startTime()">
+<body onload="startTime(); zoom ()">
     
 <form action="" method="POST">
-    <div class="wrapper" style="margin-top: 70px; margin-bottom: 50px">
+    <div class="wrapper" style="margin-top: 2%; margin-bottom: 50px">
         <div class="insert-form">
 
             <div class="input-fields">
