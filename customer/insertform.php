@@ -69,7 +69,7 @@
 
                 <input class="input" type="number" name="active" placeholder="Active Status (1 or 0)" required />
 
-                <input class="input" type="datetime-local" name="createdate"  required />
+                <input class="input" type="datetime-local" name="createdate" placeholder="yyyy-mm-dd HH:mm:ss" required />
                 
                 <div class="input" id="txt"></div>
             </div>

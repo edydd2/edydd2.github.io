@@ -29,7 +29,6 @@
         <tr>
             <th>actor_id</th>
             <th>film_id</th>
-            <th>actor_id</th>
             <th>last_update</th>
         </tr>
         
